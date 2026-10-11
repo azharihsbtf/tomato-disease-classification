@@ -36,3 +36,14 @@ python -m venv .venv
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+## Versioning model
+
+Setiap versi model disimpan di `models/vN/` bersama `metadata.json`.
+Untuk versi baru, tambahkan `models/v2/` lalu ubah `MODEL_DIR` di `app.py`.
+
+## Keterbatasan
+
+- Dilatih pada foto daun tunggal dengan latar relatif seragam.
+- Terdapat gejala _overfitting_.
+- Alat bantu awal, bukan pengganti ahli pertanian.
