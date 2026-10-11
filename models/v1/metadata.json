@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "architecture": "CNN 4 blok Conv2D (16-32-64-128) + Dense 128",
+  "input_size": [224, 224, 3],
+  "normalization": "pixel / 255.0",
+  "classes": ["healthy", "late_blight", "septoria_leaf_spot"],
+  "dataset": "cookiefinder/tomato-disease-multiple-sources (Kaggle), 3 kelas",
+  "split": { "train": 7620, "val": 1633, "test": 1634, "seed": 42 },
+  "test_accuracy": 0.9345,
+  "macro_f1": 0.935,
+  "macro_auc": 0.991,
+  "parameters": 3309219,
+  "format": "TensorFlow Lite"
+}
