@@ -12,9 +12,9 @@ Proyek klasifikasi citra untuk mengenali tiga kondisi daun tomat:
 
 | Metrik    | Nilai  |
 | --------- | ------ |
-| Akurasi   | 93,45% |
-| Macro F1  | 0,935  |
-| Macro AUC | 0,991  |
+| Akurasi   | 92,96% |
+| Macro F1  | 0,930  |
+| Macro AUC | 0,990  |
 
 ## Struktur
 

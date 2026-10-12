@@ -6,9 +6,9 @@
   "classes": ["healthy", "late_blight", "septoria_leaf_spot"],
   "dataset": "cookiefinder/tomato-disease-multiple-sources (Kaggle), 3 kelas",
   "split": { "train": 7620, "val": 1633, "test": 1634, "seed": 42 },
-  "test_accuracy": 0.9345,
-  "macro_f1": 0.935,
-  "macro_auc": 0.991,
+  "test_accuracy": 0.9296,
+  "macro_f1": 0.93,
+  "macro_auc": 0.99,
   "parameters": 3309219,
   "format": "TensorFlow Lite"
 }
